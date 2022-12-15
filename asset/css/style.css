@@ -1,0 +1,342 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: Poppins;
+    src: url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand&display=swap');
+}
+
+body{
+    display: grid;
+    grid-template-columns: 15% 60% 20% 5%;
+    grid-template-rows: 100px auto 60px;
+    grid-template-areas: "logo nav buscador carrito"
+                        "main main main main"
+                        "footer footer footer footer";
+    grid-row-gap: 10px;
+    align-items: center;
+    flex-wrap: nowrap ;}
+
+.logoPadre{
+    grid-area: logo;
+    background-color: #0D0D0D;
+    height: 100px;
+    display: flex;
+    justify-content: center;}
+
+.logoPadre img{
+    width: 90%;
+    align-self: center;}
+
+.menuBurger{
+    display: none;}
+
+.navegador{
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+    grid-area: nav;
+    height: 100px;
+    width: 100%;
+    background-color: #0D0D0D;
+    display: flex;
+    justify-content: center;}
+
+.navegador ul{
+    list-style-type: none; 
+    color: black; 
+    display: flex; 
+    align-self: center;}
+
+.navegador > ul > li{
+    position: relative;}
+
+.navegador > ul > li > ul {
+    display: none;
+    background-color: #0D0D0D;
+    padding-top: 30px;
+    text-align: center;}
+
+.navegador ul li a{
+    text-decoration: none;
+    display: block;
+    padding: 10px 20px;
+    color: white;}
+
+.navegador ul li a:hover{
+    color: #D9A679;}
+
+.navegador > ul > li:hover ul {
+    display: block;
+    position: absolute;}
+
+.buscador{
+    grid-area: buscador;
+    background-color: #0D0D0D;
+    height: 100px;
+    display: block;
+    display: flex;
+    justify-content: center;}
+
+.cajaBuscador{
+    font-family: 'poppins', sans-serif;
+    height: 30px;
+    width: 75%;
+    align-self: center;
+    justify-self: center;}
+
+.buscador button{
+    background-color: transparent;
+    border: none; 
+    padding-left: 5px;
+    padding-top: 10px;}
+
+.buscador i{
+   font-size: 20px; 
+   height: 30px;
+   color: white;}
+
+.carrito{
+    grid-area: carrito;
+    background-color: #0D0D0D;
+    height: 100%;
+    display: flex;
+    justify-content: center;}
+
+.carrito i{
+    color: white;
+    font-size: 20px;
+    align-self: center;
+    justify-self: center;}
+
+footer{
+    grid-area: footer;
+    background-color: #262626;
+    height: 100%;
+    line-height: 60px;
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5%;
+    padding-right: 5%;}
+
+footer h6{
+    color: white;}
+
+.redesSociales{
+    display: flex;
+    font-size: 20px;}
+
+.redesSociales1{
+   color: #6d6f79;}
+
+.redesSociales1:hover{
+    color: white;}
+
+.redesSociales2{
+    color: #6d6f79;
+    padding-left: 20px;}
+     
+.redesSociales2:hover{
+    color: white;}
+
+.redesSociales3{
+    color: #6d6f79;
+    padding-left: 20px;}
+         
+.redesSociales3:hover{
+    color: white;}
+
+main{
+    grid-area: main;}
+
+@media(max-width:720px){
+    body{
+        display: grid;
+        grid-template-columns: 15% 55% 15% 15%;
+        grid-template-rows: 50px auto 60px;
+        grid-template-areas: "navnuevo logo buscador carrito"
+                            "main main main main"
+                            "footer footer footer footer";
+        grid-row-gap: 10px;
+        align-items: center;
+        flex-wrap: nowrap;}
+    header i{
+        grid-area: navnuevo;
+        display: block;
+        justify-content: center;}
+    header i{
+        display: block;
+        color: white;
+        font-size: 20px;
+        align-self: center;}
+    .navegador{
+        height: 50px;}
+    .navegador ul{
+        position: fixed;
+        display: block;
+        left: -576px;
+        background-color: #0D0D0D;
+        font-weight: bold;
+        font-size: 12px;
+        padding-top: 50px;
+        width: 75%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: start;
+        align-self: start;
+        transition: 0.2s;}
+    .navegador .fa-bars:hover + ul{
+        left: 0;}
+    .navegador ul:hover{
+        left: 0;}
+    .navegador ul li{
+        padding: 5px;}
+    .logoPadre{
+        grid-area: logo;
+        height: 50px;}
+    .logoPadre img{
+        height: 30px;
+        width: auto;}
+    .cajaBuscador{
+        display: none;}
+    .buscador{
+        height: 50px;
+        display: flex;
+        justify-content: center;}
+    .buscador i{ 
+        height: 25px;
+        align-self: center;}
+    .buscador button{
+        padding-left: 0;
+        padding-top: 5px;}
+    .carrito{
+        height: 100%;
+        justify-content: center;}
+}
+
+.contenidoIndex{
+    display: grid;
+    grid-template-columns: 11% 26% 26% 26% 11%;
+    grid-template-rows: auto 60px auto auto auto;
+    grid-template-areas:"portada portada portada portada portada"
+                    ". titulo titulo titulo ."
+                    ". imagen descuento descuento ."
+                    ". imagen envio envio ."
+                        ". outlet img1 img2 .";
+    align-items: center;
+    justify-items: center;
+    flex-wrap: nowrap ;
+    grid-row-gap: 15px;}
+
+@media(max-width:720px){
+    .contenidoIndex{
+        display: grid;
+        grid-template-columns: 11% 39% 39% 11%;
+        grid-template-rows: auto 30px auto auto auto auto auto;
+        grid-template-areas:"portada portada portada portada"
+                        ". titulo titulo ."
+                        ". imagen imagen ."
+                        ". descuento descuento ."
+                        ". envio envio ."
+                        ". outlet outlet ."
+                        ". img1 img2 .";
+        align-items: center;
+        justify-items: center;
+        flex-wrap: nowrap ;
+        grid-row-gap: 10px;}
+    .newin{padding-right: 7.5%; padding-left: 7.5%;}
+    .outlet{padding-right: 7.5%; padding-left: 7.5%;}
+}
+
+.portadaIndex{
+    grid-area: portada;
+    width: 96vw;}
+
+.titulo{
+    grid-area: titulo;
+    background-color: #D8DCF2;
+    height: 2px;
+    width: 100%;}
+
+.newin{
+    grid-area: imagen;
+    width: 100%;}
+
+.newin:hover{
+    transform: scale(1.05);}
+
+.descuento{
+    grid-area: descuento;
+    width: 85%;}
+
+.envio{
+    grid-area: envio;
+    width: 85%;}
+
+.outlet{
+    grid-area: outlet;
+    width: 100%;}
+
+.outlet:hover{
+    transform: scale(1.05);}
+
+.img1{
+    grid-area: img1;
+    width: 70%;}
+
+.img1:hover{
+    transform: scale(1.1);}
+
+.img2{
+    grid-area: img2;
+    width: 70%;}
+
+.img2:hover{
+    transform: scale(1.1);}
+
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;}
+
+.tarjetaProducto{
+    width: 450px; padding: 20px;}
+
+.tarjetaProducto__img{
+    width:100%;}
+
+.tarjetaProducto__btn{
+    width: 100%;
+    background-color: white; 
+    height: 30px;
+    font-family: 'poppins', sans-serif;
+    font-weight: bold;
+    color: #0D0D0D;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    outline: none;
+    border: 1px solid #000;
+    color: #000;
+    background: transparent;}
+
+.tarjetaProducto__btn:hover:after{
+    top: 0;
+    left: 0;}
+
+.tarjetaProducto__btn:after {
+    content: "";
+    width: 100%;
+    z-index: -1;
+    position: absolute;
+    height: 100%;
+    top: 5px;
+    left: 5px;
+    transition: 0.2s;
+    background-color: #D9A679;}
