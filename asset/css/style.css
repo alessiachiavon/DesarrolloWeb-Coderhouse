@@ -509,7 +509,7 @@ main .img2:hover {
 @media (max-width: 720px) {
   .nosotrosMain > .nosotros1 {
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 20px;
     width: 100%;
   }
 }

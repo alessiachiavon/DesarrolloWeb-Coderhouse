@@ -3,7 +3,7 @@
     flex-direction: column;
     font-family: 'poppins', sans-serif;
     width: 85%;
-    margin-left:  7.5%;
+    margin-left: 7.5%;
     > .nosotros1 {
     background-color: #0D0D0D;
     height: auto;
@@ -38,7 +38,7 @@
         }
         @media(max-width:720px){
             flex-direction: column;
-            margin-top: 50px;
+            margin-top: 20px;
             width: 100%;
             }
         > .textoNosotros1 {
