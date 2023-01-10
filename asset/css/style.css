@@ -12,6 +12,10 @@ body {
   overflow-x: hidden;
 }
 
+body {
+  text-decoration: none;
+}
+
 header {
   display: flex;
   position: fixed;
@@ -49,7 +53,6 @@ header > .logoPadre {
 @media (max-width: 720px) {
   header > .logoPadre > a {
     height: 30px;
-    text-decoration-color: none;
   }
 }
 header > .logoPadre > a > img {
