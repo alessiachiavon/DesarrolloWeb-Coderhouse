@@ -10,32 +10,6 @@
     border-radius: 30px;
     display: flex;
     justify-content: space-around;
-    -webkit-animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    animation: slide-in-left 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-    @-webkit-keyframes slide-in-left {
-        0% {
-            -webkit-transform: translateX(-1000px);
-            transform: translateX(-1000px);
-            opacity: 0;
-            }
-        100% {
-            -webkit-transform: translateX(0);
-            transform: translateX(0);
-            opacity: 1;
-            }
-        }
-    @keyframes slide-in-left {
-        0% {
-            -webkit-transform: translateX(-1000px);
-            transform: translateX(-1000px);
-            opacity: 0;
-            }
-        100% {
-            -webkit-transform: translateX(0);
-            transform: translateX(0);
-            opacity: 1;
-            }
-        }
         @media(max-width:720px){
             flex-direction: column;
             margin-top: none;
@@ -74,33 +48,7 @@
         display: flex;
         justify-content: space-around;
         margin-top: 20px;
-        -webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
-        animation-delay: .5s;
-        @-webkit-keyframes slide-in-right {
-            0% {
-                -webkit-transform: translateX(1000px);
-                transform: translateX(1000px);
-                opacity: 0;
-                }
-            100% {
-                -webkit-transform: translateX(0);
-                transform: translateX(0);
-                opacity: 1;
-                }
-            }
-        @keyframes slide-in-right {
-            0% {
-                -webkit-transform: translateX(1000px);
-                transform: translateX(1000px);
-                opacity: 0;
-                }
-            100% {
-                -webkit-transform: translateX(0);
-                transform: translateX(0);
-                opacity: 1;
-                }
-            }
+        
             > .imagenNosotros2 {
                 padding: 30px;
                 align-self: center;
