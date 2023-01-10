@@ -50,6 +50,7 @@
             align-self: center;
             @media(max-width:720px){
                 width: auto;
+                text-align: center;
             }
             > p {
                 padding-top: 10px;
@@ -113,6 +114,7 @@
                 align-self: center;
                 @media(max-width:720px){
                     width: auto;
+                    text-align: center;
                 }
                 > p {
                     padding-top: 10px;

@@ -524,6 +524,7 @@ main .img2:hover {
 @media (max-width: 720px) {
   .nosotrosMain > .nosotros1 > .textoNosotros1 {
     width: auto;
+    text-align: center;
   }
 }
 .nosotrosMain > .nosotros1 > .textoNosotros1 > p {
@@ -591,6 +592,7 @@ main .img2:hover {
 @media (max-width: 720px) {
   .nosotrosMain > .nosotros2 > .textoNosotros2 {
     width: auto;
+    text-align: center;
   }
 }
 .nosotrosMain > .nosotros2 > .textoNosotros2 > p {
@@ -619,6 +621,14 @@ main .img2:hover {
   justify-content: space-between;
   margin-top: 40px;
   margin-bottom: 40px;
+}
+@media (max-width: 720px) {
+  .cuidadoMain > .imagenes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 85%;
+  }
 }
 .cuidadoMain > .imagenes > img {
   width: 30%;
