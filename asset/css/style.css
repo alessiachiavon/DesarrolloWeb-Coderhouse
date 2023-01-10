@@ -51,7 +51,7 @@ header > .logoPadre {
     height: 30px;
   }
   header > .logoPadre > a:hover {
-    background-color: none;
+    background-color: transparent;
   }
 }
 header > .logoPadre > a > img {
@@ -161,7 +161,7 @@ header > .navegador > ul > li > a:hover + ul {
 }
 header > .navegador > ul > li > a:hover {
   color: #D9A679;
-  background-color: none;
+  background-color: transparent;
 }
 header > .navegador > ul > li > ul {
   list-style-type: none;

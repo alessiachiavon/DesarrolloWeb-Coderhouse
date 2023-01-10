@@ -29,7 +29,7 @@ header{
             @media(max-width:720px){
             height: 30px;
             &:hover {
-                background-color: none;}
+                background-color: transparent;}
             }
         > img{
             width: 90%;
@@ -121,7 +121,7 @@ header{
                     position: absolute;}
                     &:hover {
                     color: #D9A679;
-                    background-color: none;}
+                    background-color: transparent;}
                 }
                 > ul {
                     list-style-type: none;
