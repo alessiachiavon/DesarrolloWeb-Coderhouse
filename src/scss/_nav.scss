@@ -28,6 +28,8 @@ header{
         > a {
             @media(max-width:720px){
             height: 30px;
+            &:active { 
+            background-color: none;}
             }
         > img{
             width: 90%;
@@ -35,11 +37,6 @@ header{
             @media(max-width:720px){
                 height: 30px;
                 width: auto;
-                &:focus:active {
-                    background-image: none;
-                    outline: none;
-                    -webkit-box-shadow: none;
-                    box-shadow: none;}
                 }
             }
         }
