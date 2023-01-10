@@ -84,6 +84,21 @@ header{
                 transition: 0.2s;
                 &:hover{left: 0;}
                 }
+            > :nth-child(2){
+                @media(max-width:720px){
+                    position: relative;
+                    &:hover + :nth-child(3) {
+                        padding-top: 250px;
+                    } 
+                } 
+            }
+            > :nth-child(3){
+                @media(max-width:720px){
+                    &:hover {
+                        padding-top: 250px;
+                    } 
+                } 
+            }
             > li{
                 position: relative;
                 @media(max-width:720px){
@@ -108,22 +123,40 @@ header{
                     padding-top: 30px;
                     padding-left: 0px;
                     text-align: center;
+                    &:hover{
+                        display: block;
+                        position: absolute; 
+                    }
+                    @media(max-width:720px){
+                        padding-top: 10px;
+                        text-align: left;
+                        &:hover{
+                            display: block;
+                            position: absolute;
+                        }
+                    }
                     > li{
                         @media(max-width:720px){
-                            display: none;
+                            &:hover + ul {
+                                display: block;
+                                position: absolute;
+                                margin-top: none;
+                            }
                         }
+                     
                         > a{
                         text-decoration: none;
                         display: block;
                         padding: 10px 20px;
                         font-size: 15px;
                         color: white;
+                            }
                         }
-                    }
-                } 
+                    } 
+                }
             }
-        }
-    }    
+        } 
+    } 
     
     form{
         background-color: #0D0D0D;
@@ -185,8 +218,6 @@ header{
             justify-self: center;
         }
     }
-}
-
 
 
 
