@@ -627,11 +627,16 @@ main .img2:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 85%;
   }
 }
 .cuidadoMain > .imagenes > img {
   width: 30%;
+}
+@media (max-width: 720px) {
+  .cuidadoMain > .imagenes > img {
+    width: 100%;
+    padding: 10px;
+  }
 }
 .cuidadoMain > .subtitulo1 {
   font-size: 20px;
