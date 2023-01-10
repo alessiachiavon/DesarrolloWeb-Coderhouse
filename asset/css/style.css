@@ -44,7 +44,11 @@ header > .logoPadre {
 @media (max-width: 720px) {
   header > .logoPadre {
     width: 55%;
-    height: 50px;
+  }
+}
+@media (max-width: 720px) {
+  header > .logoPadre > a {
+    height: 30px;
   }
 }
 header > .logoPadre > a > img {
