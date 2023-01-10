@@ -38,14 +38,7 @@
             align-items: center;
             padding-top: 10px;
             >.icono {
-                background-color: black;
-                border-radius: 20px;
-                width: 40px;
-                height: 40px;
-                padding: 10px;
-                padding-left: 7px;
-                font-size: 20px;
-                color: white;
+                @include icono (black)
             }
             > .informacion {
                 display: block;
@@ -58,13 +51,7 @@
             align-items: center;
             padding-top: 10px;
             >.icono {
-                background-color: #262626;
-                border-radius: 20px;
-                width: 40px;
-                height: 40px;
-                padding: 10px;
-                font-size: 20px;
-                color: white;
+                @include icono (#262626)
             }
             > .informacion {
                 display: block;
@@ -96,14 +83,7 @@
             flex-direction: row;
             align-items: center;
             >.icono {
-                background-color: black;
-                border-radius: 20px;
-                width: 40px;
-                height: 40px;
-                padding: 10px;
-                padding-left: 7px;
-                font-size: 20px;
-                color: white;
+                @include icono (black)
             }
             > .informacion {
                 display: block;
@@ -154,14 +134,7 @@
             flex-direction: row;
             align-items: center;
             >.icono {
-                background-color: black;
-                border-radius: 20px;
-                width: 40px;
-                height: 40px;
-                padding: 10px;
-                padding-left: 7px;
-                font-size: 20px;
-                color: white;
+                @include icono (black)
             }
             > .informacion {
                 display: block;
@@ -174,13 +147,7 @@
             align-items: center;
             padding-top: 10px;
             >.icono {
-                background-color: #262626;
-                border-radius: 20px;
-                width: 40px;
-                height: 40px;
-                padding: 10px;
-                font-size: 20px;
-                color: white;
+                @include icono (#262626)  
             }
             > .informacion {
                 display: block;

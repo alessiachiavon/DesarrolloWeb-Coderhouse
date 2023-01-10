@@ -1,0 +1,10 @@
+@mixin icono ($background)
+    {
+    background-color: $background;
+    border-radius: 20px;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+    }

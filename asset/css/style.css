@@ -122,6 +122,11 @@ header > .navegador > ul {
   header > .navegador > ul:hover {
     left: 0;
   }
+  header > .navegador > ul:hover > li > ul {
+    display: block;
+    position: absolute;
+    margin-top: none;
+  }
 }
 @media (max-width: 720px) {
   header > .navegador > ul > :nth-child(3) {
@@ -174,6 +179,11 @@ header > .navegador > ul > li > ul > li > a {
   padding: 10px 20px;
   font-size: 15px;
   color: white;
+}
+@media (max-width: 720px) {
+  header > .navegador > ul > li > ul > li > a {
+    font-weight: normal;
+  }
 }
 header form {
   background-color: #0D0D0D;
@@ -669,7 +679,6 @@ main .img2:hover {
   width: 40px;
   height: 40px;
   padding: 10px;
-  padding-left: 7px;
   font-size: 20px;
   color: white;
 }
@@ -725,7 +734,6 @@ main .img2:hover {
   width: 40px;
   height: 40px;
   padding: 10px;
-  padding-left: 7px;
   font-size: 20px;
   color: white;
 }
@@ -779,7 +787,6 @@ main .img2:hover {
   width: 40px;
   height: 40px;
   padding: 10px;
-  padding-left: 7px;
   font-size: 20px;
   color: white;
 }
