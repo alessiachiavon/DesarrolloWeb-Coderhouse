@@ -1,0 +1,45 @@
+footer{
+    background-color: #262626;
+    height: 70px;
+    margin-top: 10px;
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 35px;
+    padding-right: 100px;
+    > h6{
+        color: white;
+        align-self: center;
+        font-size: 12px;
+        font-weight: bold;
+        padding-top: 5px;}
+        > .redesSociales{
+        display: flex;
+        font-size: 20px;
+        align-self: center;
+            > .redesSociales1{
+            color: #6d6f79;
+            &:hover{color: white;}
+            }
+            > .redesSociales2{
+            color: #6d6f79;
+            padding-left: 20px;
+            &:hover{color: white;}
+            }
+        }
+    }
+
+.wspFijo{
+    position: fixed;
+    bottom: 5px;
+    right: 25px;
+    > .fa-whatsapp{
+        color: white;
+        font-size: 30px;
+        position: absolute;
+        margin: 6px 12px}
+    > .fa-message{
+        color: #262626;
+        font-size: 50px;}
+    }
+

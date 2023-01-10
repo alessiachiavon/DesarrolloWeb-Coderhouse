@@ -1,0 +1,196 @@
+.cuidadoMain{
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+    margin-left: 10%;
+    > .tituloCuidado {
+        padding-top: 30px;
+    }
+    > .imagenes {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+        margin-bottom: 40px;
+        > img {
+            width: 30%;
+        }
+    }
+    > .subtitulo1 {
+        font-size: 20px;
+        padding-top: 30px;
+    }
+    > .cuero {
+        > .lavado {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-top: 10px;
+            >.icono {
+                background-color: black;
+                border-radius: 20px;
+                width: 40px;
+                height: 40px;
+                padding: 10px;
+                padding-left: 7px;
+                font-size: 20px;
+                color: white;
+            }
+            > .informacion {
+                display: block;
+                padding-left: 25px;
+            }
+        }
+        > .guardado {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-top: 10px;
+            >.icono {
+                background-color: #262626;
+                border-radius: 20px;
+                width: 40px;
+                height: 40px;
+                padding: 10px;
+                font-size: 20px;
+                color: white;
+            }
+            > .informacion {
+                display: block;
+                padding-left: 25px;
+            }
+        }
+        > .cuidados {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-top: 10px;
+            >.icono {
+                font-size: 40px;
+                color: #D9A679;
+            }
+            > .informacion {
+                display: block;
+                padding-left: 25px;
+            }
+        }
+    }
+    > .subtitulo2 {
+        font-size: 20px;
+        padding-top: 30px;
+    }
+    > .charol {
+        > .lavado {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            >.icono {
+                background-color: black;
+                border-radius: 20px;
+                width: 40px;
+                height: 40px;
+                padding: 10px;
+                padding-left: 7px;
+                font-size: 20px;
+                color: white;
+            }
+            > .informacion {
+                display: block;
+                padding-left: 25px;
+            }
+        }
+        > .cuidados {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-top: 10px;
+            >.icono {
+                font-size: 40px;
+                color: #D9A679;
+            }
+            > .informacion {
+                display: block;
+                padding-left: 25px;
+            }
+        }
+    }
+    > .subtitulo3 {
+        font-size: 20px;
+        padding-top: 30px;
+    }
+    > .metalizados {
+        > .cuidados {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            >.icono {
+                font-size: 40px;
+                color: #D9A679;
+            }
+            > .informacion {
+                display: block;
+                padding-left: 25px;
+            }
+        }
+    }
+    > .subtitulo4 {
+        font-size: 20px;
+        padding-top: 30px;
+    }
+    > .sinteticos {
+        > .lavado {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            >.icono {
+                background-color: black;
+                border-radius: 20px;
+                width: 40px;
+                height: 40px;
+                padding: 10px;
+                padding-left: 7px;
+                font-size: 20px;
+                color: white;
+            }
+            > .informacion {
+                display: block;
+                padding-left: 25px;
+            }
+        }
+        > .guardado {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-top: 10px;
+            >.icono {
+                background-color: #262626;
+                border-radius: 20px;
+                width: 40px;
+                height: 40px;
+                padding: 10px;
+                font-size: 20px;
+                color: white;
+            }
+            > .informacion {
+                display: block;
+                padding-left: 25px;
+            }
+        }
+        > .cuidados {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding-top: 10px;
+            >.icono {
+                font-size: 40px;
+                color: #D9A679;
+            }
+            > .informacion {
+                display: block;
+                padding-left: 25px;
+            }
+        }
+    }
+}

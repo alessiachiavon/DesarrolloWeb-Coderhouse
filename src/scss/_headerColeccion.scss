@@ -1,0 +1,45 @@
+.productos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    > .tarjetaProducto{
+        width: 450px; padding: 20px;
+        > .tarjetaProducto__img{
+            width:100%;
+        }
+        > .tarjetaProducto__btn{
+            width: 100%;
+            background-color: white; 
+            height: 30px;
+            font-family: 'poppins', sans-serif;
+            font-weight: bold;
+            color: #0D0D0D;
+            padding: 5px 10px;
+            font-weight: bold;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            display: inline-block;
+            outline: none;
+            border: 1px solid #000;
+            color: #000;
+            background: transparent;
+            &:hover:after{
+                top: 0;
+                left: 0;
+            }
+            &:after{
+                content: "";
+                width: 100%;
+                z-index: -1;
+                position: absolute;
+                height: 100%;
+                top: 5px;
+                left: 5px;
+                transition: 0.2s;
+                background-color: #D9A679;
+            }
+        }
+    }
+}

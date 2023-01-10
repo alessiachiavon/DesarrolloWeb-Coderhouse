@@ -1,0 +1,68 @@
+.contactoMain {
+    font-family: 'poppins', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+    margin-left: 10%;
+    > .tituloContacto {
+        padding-top: 30px;
+    }
+    > .intro {
+        width: 100%;
+        padding-top: 10px;
+        > img {
+        width: 100%;
+        }
+    }
+    > .datosShowroom {
+        font-size: 20px;
+        color: #262626;
+        > h5 {padding-top: 30px;}
+        > h6 {padding-top: 10px;}
+    }
+    > h3 {
+        padding-top: 40px;
+    }
+    > .formulario {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        > .formPartes{
+            width: 100%;
+            padding-top: 15px;
+        > input {
+            font-family: 'poppins', sans-serif;
+            font-size: 12px;
+            height: 40px;
+            padding-left: 10px;
+            width: 100%;
+            }
+        > textarea {
+            font-family: 'poppins', sans-serif;
+            font-size: 12px;
+            height: 300px;
+            padding: 10px;
+            width: 100%;
+            }
+        }
+        > .notificaciones {
+            display: flex;
+            font-family: 'poppins', sans-serif;
+            font-size: 12px;
+            padding-top: 10px;
+            padding-bottom: 10px;
+            > label {
+                padding-left: 10px;
+            }
+        }
+        > .boton {
+            width: 70px;
+            height: 40px;
+            border-style: none;
+            background-color: #262626;
+            color: white;
+
+        }
+    }
+}
