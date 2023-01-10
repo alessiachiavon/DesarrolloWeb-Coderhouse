@@ -28,7 +28,7 @@ header{
         > a {
             @media(max-width:720px){
             height: 30px;
-            &:active { 
+            &:focus { 
             background-color: none;}
             }
         > img{
