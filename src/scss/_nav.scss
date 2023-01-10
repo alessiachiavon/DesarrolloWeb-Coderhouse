@@ -29,7 +29,7 @@ header{
             @media(max-width:720px){
             height: 30px;
             &:focus { 
-            background-color: none;}
+            outline: none;}
             }
         > img{
             width: 90%;
