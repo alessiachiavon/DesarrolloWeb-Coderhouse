@@ -536,6 +536,7 @@ main .img2:hover {
     flex-direction: column;
     margin-top: none;
     width: 100%;
+    animation: none;
   }
 }
 .nosotrosMain > .nosotros1 > .textoNosotros1 {
