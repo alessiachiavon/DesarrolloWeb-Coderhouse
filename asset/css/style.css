@@ -49,9 +49,7 @@ header > .logoPadre {
 @media (max-width: 720px) {
   header > .logoPadre > a {
     height: 30px;
-  }
-  header > .logoPadre > a:hover {
-    background-color: block;
+    text-decoration-color: none;
   }
 }
 header > .logoPadre > a > img {
@@ -161,7 +159,6 @@ header > .navegador > ul > li > a:hover + ul {
 }
 header > .navegador > ul > li > a:hover {
   color: #D9A679;
-  background-color: block;
 }
 header > .navegador > ul > li > ul {
   list-style-type: none;

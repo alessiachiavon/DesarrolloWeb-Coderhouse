@@ -28,8 +28,7 @@ header{
         > a {
             @media(max-width:720px){
             height: 30px;
-            &:hover {
-                background-color: block;}
+            text-decoration-color: none;
             }
         > img{
             width: 90%;
@@ -120,8 +119,7 @@ header{
                     display: block;
                     position: absolute;}
                     &:hover {
-                    color: #D9A679;
-                    background-color: block;}
+                    color: #D9A679;}
                 }
                 > ul {
                     list-style-type: none;
