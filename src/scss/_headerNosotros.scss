@@ -8,19 +8,31 @@
                         ". col1 col2 .";
     flex-wrap: nowrap ;
     grid-row-gap: 25px;
-    margin-bottom: 50px;
+    margin-bottom: 25px;
     @media(max-width:720px){
-        
+        margin-top: 90px;
+        display: grid;
+        grid-template-columns: 5% 90% 5%;
+        grid-template-rows: auto auto auto auto;
+        grid-template-areas:". titulo ."
+                            ". imagen ."
+                           ". col2 ."
+                           ". col1 .";
+        flex-wrap: nowrap ;
+        grid-row-gap: 25px;
+        margin-bottom: 25px;
     }
     > .fraseo{
         grid-area: titulo;
         justify-items: right;
         font-size: 25px;
-        font-weight: bold;
         color: #262626;
         text-align: end;
         font-weight: initial;
         padding-right: 25px;
+        @media(max-width:720px){
+            padding-right: 0px;
+        }
         }
     > .columna1{
         grid-area: col1;
@@ -31,11 +43,12 @@
         font-size: 25px;
         font-weight: bold;
         color: #D9A679;
-        text-align: center;
+        text-align: start;
+        padding-left: 45px;
         }
         > .parrafo {
             display: flex;
-            justify-content: center;
+            justify-content: start;
             align-content: flex-start;
             padding-top: 50px;
             > h4 {
@@ -66,6 +79,10 @@
         justify-items: left;
         padding-left: 25px;
         > img{ width: 100%;}
+        @media(max-width:720px){
+            padding-left: 0px; 
+            justify-items: center;
+        }
     }
     
     > .textoppal {
@@ -73,6 +90,10 @@
         color: black;
         padding-left: 25px;
         text-align: end;
+        @media(max-width:720px){
+            padding-left: 0px; 
+            text-align: center;
+        }
         > .autocita {
             font-size: 25px;
             padding-bottom: 25px;

@@ -458,6 +458,7 @@ footer > .redesSociales > .redesSociales2:hover {
   flex-wrap: wrap;
   justify-content: space-around;
   align-content: space-around;
+  margin-top: 120px;
 }
 .productos > .tarjetaProducto {
   width: 450px;
@@ -509,17 +510,33 @@ footer > .redesSociales > .redesSociales2:hover {
   grid-template-areas: ". titulo imagen ." ". col1 col2 .";
   flex-wrap: nowrap;
   grid-row-gap: 25px;
-  margin-bottom: 50px;
+  margin-bottom: 25px;
+}
+@media (max-width: 720px) {
+  .nosotrosMain {
+    margin-top: 90px;
+    display: grid;
+    grid-template-columns: 5% 90% 5%;
+    grid-template-rows: auto auto auto auto;
+    grid-template-areas: ". titulo ." ". imagen ." ". col2 ." ". col1 .";
+    flex-wrap: nowrap;
+    grid-row-gap: 25px;
+    margin-bottom: 25px;
+  }
 }
 .nosotrosMain > .fraseo {
   grid-area: titulo;
   justify-items: right;
   font-size: 25px;
-  font-weight: bold;
   color: #262626;
   text-align: end;
   font-weight: initial;
   padding-right: 25px;
+}
+@media (max-width: 720px) {
+  .nosotrosMain > .fraseo {
+    padding-right: 0px;
+  }
 }
 .nosotrosMain > .columna1 {
   grid-area: col1;
@@ -530,11 +547,12 @@ footer > .redesSociales > .redesSociales2:hover {
   font-size: 25px;
   font-weight: bold;
   color: #D9A679;
-  text-align: center;
+  text-align: start;
+  padding-left: 45px;
 }
 .nosotrosMain > .columna1 > .parrafo {
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-content: flex-start;
   padding-top: 50px;
 }
@@ -567,11 +585,23 @@ footer > .redesSociales > .redesSociales2:hover {
 .nosotrosMain > .nosotros2 > img {
   width: 100%;
 }
+@media (max-width: 720px) {
+  .nosotrosMain > .nosotros2 {
+    padding-left: 0px;
+    justify-items: center;
+  }
+}
 .nosotrosMain > .textoppal {
   grid-area: col2;
   color: black;
   padding-left: 25px;
   text-align: end;
+}
+@media (max-width: 720px) {
+  .nosotrosMain > .textoppal {
+    padding-left: 0px;
+    text-align: center;
+  }
 }
 .nosotrosMain > .textoppal > .autocita {
   font-size: 25px;
@@ -588,6 +618,7 @@ footer > .redesSociales > .redesSociales2:hover {
 }
 
 .cuidadoMain {
+  margin-top: 120px;
   font-family: "Raleway", sans-serif;
   display: flex;
   flex-direction: column;
@@ -595,8 +626,8 @@ footer > .redesSociales > .redesSociales2:hover {
   width: 80%;
   margin-left: 10%;
 }
-.cuidadoMain > .tituloCuidado {
-  padding-top: 30px;
+.cuidadoMain > .intro {
+  padding-top: 20px;
 }
 .cuidadoMain > .imagenes {
   width: 100%;
@@ -793,6 +824,7 @@ footer > .redesSociales > .redesSociales2:hover {
   align-items: flex-start;
   width: 80%;
   margin-left: 10%;
+  margin-top: 120px;
 }
 .contactoMain > .tituloContacto {
   padding-top: 30px;

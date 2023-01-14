@@ -1,12 +1,13 @@
 .cuidadoMain{
+    margin-top: 120px;
     font-family: 'Raleway', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     width: 80%;
     margin-left: 10%;
-    > .tituloCuidado {
-        padding-top: 30px;
+    > .intro {
+        padding-top: 20px;
     }
     > .imagenes {
         width: 100%;
