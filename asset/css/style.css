@@ -878,25 +878,43 @@ footer > .redesSociales > .redesSociales2:hover {
   margin-left: 10%;
   margin-top: 120px;
 }
-.contactoMain > .tituloContacto {
-  padding-top: 30px;
+@media (max-width: 720px) {
+  .contactoMain {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 90px;
+  }
 }
 .contactoMain > .intro {
   width: 100%;
   padding-top: 10px;
+  display: flex;
+  flex-direction: row;
+  height: auto;
 }
 .contactoMain > .intro > img {
-  width: 100%;
+  width: 60%;
+  height: auto;
 }
-.contactoMain > .datosShowroom {
+.contactoMain > .intro > .datosShowroom {
+  display: flex;
+  flex-direction: column;
   font-size: 20px;
+  padding-left: 25px;
   color: #262626;
 }
-.contactoMain > .datosShowroom > h5 {
+.contactoMain > .intro > .datosShowroom > .nuestoShowroom {
+  text-align: left;
+}
+.contactoMain > .intro > .datosShowroom > .infoShowroom {
+  text-align: left;
+}
+.contactoMain > .intro > .datosShowroom > .infoShowroom > h5 {
   padding-top: 30px;
 }
-.contactoMain > .datosShowroom > h6 {
+.contactoMain > .intro > .datosShowroom > .infoShowroom > h6 {
   padding-top: 10px;
+  font-weight: initial;
 }
 .contactoMain > h3 {
   padding-top: 40px;
