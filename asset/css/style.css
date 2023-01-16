@@ -124,7 +124,7 @@ header > .navegador > ul {
     margin-top: 45px;
     padding-top: 10px;
     padding-left: 5px;
-    width: 75%;
+    width: 550px;
     height: 100%;
     flex-direction: column;
     justify-content: start;
@@ -331,7 +331,7 @@ footer > .redesSociales > .redesSociales2:hover {
   flex-wrap: nowrap;
   grid-row-gap: 15px;
 }
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .contenidoIndex {
     margin-top: 90px;
     display: grid;
@@ -400,7 +400,7 @@ footer > .redesSociales > .redesSociales2:hover {
     transform: translate(0);
   }
 }
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .contenidoIndex > .outlet {
     padding-right: 7.5%;
     padding-left: 7.5%;
@@ -420,7 +420,7 @@ footer > .redesSociales > .redesSociales2:hover {
   grid-area: imagen;
   width: 100%;
 }
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .contenidoIndex .newin {
     padding-right: 7.5%;
     padding-left: 7.5%;
@@ -517,7 +517,7 @@ footer > .redesSociales > .redesSociales2:hover {
   grid-row-gap: 25px;
   margin-bottom: 25px;
 }
-@media (max-width: 720px) {
+@media (max-width: 1250px) {
   .nosotrosMain {
     margin-top: 90px;
     display: grid;
@@ -538,7 +538,7 @@ footer > .redesSociales > .redesSociales2:hover {
   font-weight: initial;
   padding-right: 25px;
 }
-@media (max-width: 720px) {
+@media (max-width: 1250px) {
   .nosotrosMain > .fraseo {
     padding-right: 0px;
   }
@@ -590,7 +590,7 @@ footer > .redesSociales > .redesSociales2:hover {
 .nosotrosMain > .nosotros2 > img {
   width: 100%;
 }
-@media (max-width: 720px) {
+@media (max-width: 1250px) {
   .nosotrosMain > .nosotros2 {
     padding-left: 0px;
     justify-items: center;
@@ -602,7 +602,7 @@ footer > .redesSociales > .redesSociales2:hover {
   padding-left: 25px;
   text-align: end;
 }
-@media (max-width: 720px) {
+@media (max-width: 1250px) {
   .nosotrosMain > .textoppal {
     padding-left: 0px;
     text-align: center;
@@ -633,7 +633,7 @@ footer > .redesSociales > .redesSociales2:hover {
   text-align: center;
   margin-bottom: 40px;
 }
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .cuidadoMain {
     margin-top: 90px;
   }
@@ -642,7 +642,7 @@ footer > .redesSociales > .redesSociales2:hover {
   width: 62%;
   font-size: 20px;
 }
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .cuidadoMain > .intro {
     width: 100%;
   }
@@ -657,7 +657,7 @@ footer > .redesSociales > .redesSociales2:hover {
   margin-top: 40px;
   margin-bottom: 40px;
 }
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .cuidadoMain > .imagenes {
     display: flex;
     flex-direction: column;
@@ -667,7 +667,7 @@ footer > .redesSociales > .redesSociales2:hover {
 .cuidadoMain > .imagenes > img {
   width: 30%;
 }
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .cuidadoMain > .imagenes > img {
     width: 100%;
     padding: 10px;
@@ -692,7 +692,7 @@ footer > .redesSociales > .redesSociales2:hover {
   padding-top: 80px;
   position: relative;
 }
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .cuidadoMain > .lavado {
     flex-direction: column;
   }
@@ -703,7 +703,7 @@ footer > .redesSociales > .redesSociales2:hover {
   justify-content: end;
   padding-right: 30px;
 }
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .cuidadoMain > .lavado > .icono {
     padding-right: 0;
     justify-content: center;
@@ -718,7 +718,7 @@ footer > .redesSociales > .redesSociales2:hover {
   height: 100%;
   position: absolute;
 }
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .cuidadoMain > .lavado > .linea {
     display: none;
   }
@@ -730,7 +730,7 @@ footer > .redesSociales > .redesSociales2:hover {
   width: 50%;
   padding-left: 30px;
 }
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .cuidadoMain > .lavado > .informacion {
     width: 100%;
     text-align: center;
@@ -754,7 +754,7 @@ footer > .redesSociales > .redesSociales2:hover {
   padding-top: 40px;
   position: relative;
 }
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .cuidadoMain > .guardado {
     flex-direction: column;
   }
@@ -766,7 +766,7 @@ footer > .redesSociales > .redesSociales2:hover {
   width: 50%;
   padding-right: 30px;
 }
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .cuidadoMain > .guardado > .informacion {
     width: 100%;
     text-align: center;
@@ -787,7 +787,7 @@ footer > .redesSociales > .redesSociales2:hover {
   height: 100%;
   position: absolute;
 }
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .cuidadoMain > .guardado > .linea {
     display: none;
   }
@@ -798,7 +798,7 @@ footer > .redesSociales > .redesSociales2:hover {
   justify-content: start;
   padding-left: 30px;
 }
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .cuidadoMain > .guardado > .icono {
     padding-left: 0;
     justify-content: center;
@@ -818,7 +818,7 @@ footer > .redesSociales > .redesSociales2:hover {
   padding-top: 40px;
   position: relative;
 }
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .cuidadoMain > .cuidados {
     flex-direction: column;
   }
@@ -829,7 +829,7 @@ footer > .redesSociales > .redesSociales2:hover {
   justify-content: end;
   padding-right: 30px;
 }
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .cuidadoMain > .cuidados > .icono {
     padding-right: 0;
     justify-content: center;
@@ -844,7 +844,7 @@ footer > .redesSociales > .redesSociales2:hover {
   height: 100%;
   position: absolute;
 }
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .cuidadoMain > .cuidados > .linea {
     display: none;
   }
@@ -856,7 +856,7 @@ footer > .redesSociales > .redesSociales2:hover {
   width: 50%;
   padding-left: 30px;
 }
-@media (max-width: 720px) {
+@media (max-width: 768px) {
   .cuidadoMain > .cuidados > .informacion {
     width: 100%;
     text-align: center;
@@ -880,7 +880,7 @@ footer > .redesSociales > .redesSociales2:hover {
   margin-left: 10%;
   margin-top: 120px;
 }
-@media (max-width: 720px) {
+@media (max-width: 1250px) {
   .contactoMain {
     width: 90%;
     margin-left: 5%;
@@ -894,9 +894,20 @@ footer > .redesSociales > .redesSociales2:hover {
   flex-direction: row;
   height: auto;
 }
+@media (max-width: 1250px) {
+  .contactoMain > .intro {
+    display: flex;
+    flex-direction: column;
+  }
+}
 .contactoMain > .intro > img {
   width: 60%;
   height: 100%;
+}
+@media (max-width: 1250px) {
+  .contactoMain > .intro > img {
+    width: 100%;
+  }
 }
 .contactoMain > .intro > .datosShowroom {
   display: flex;
@@ -904,6 +915,12 @@ footer > .redesSociales > .redesSociales2:hover {
   font-size: 20px;
   padding-left: 25px;
   color: #262626;
+}
+@media (max-width: 1250px) {
+  .contactoMain > .intro > .datosShowroom {
+    padding-left: 0;
+    margin-top: 40px;
+  }
 }
 .contactoMain > .intro > .datosShowroom > .nuestoShowroom {
   text-align: left;
@@ -921,6 +938,11 @@ footer > .redesSociales > .redesSociales2:hover {
 .contactoMain > .formContacto {
   margin-top: 40px;
   width: 60%;
+}
+@media (max-width: 1250px) {
+  .contactoMain > .formContacto {
+    width: 100%;
+  }
 }
 .contactoMain > .formContacto > .formulario {
   display: flex;
