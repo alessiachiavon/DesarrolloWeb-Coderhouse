@@ -18,21 +18,28 @@ footer{
         font-size: 20px;
         align-self: center;
             > .redesSociales1{
-            color: #6d6f79;
-            &:hover{color: white;}
+            > a {
+                text-decoration: none;
+                color: #6d6f79;
+                &:hover{color: white;}
+            }
             }
             > .redesSociales2{
-            color: #6d6f79;
-            padding-left: 20px;
-            &:hover{color: white;}
+                > a {
+                    text-decoration: none;
+                    color: #6d6f79;
+                    padding-left: 20px;
+                    &:hover{color: white;}
+                }  
             }
         }
     }
 
 .wspFijo{
-    position: fixed;
-    bottom: 5px;
-    right: 25px;
+    > a{
+        position: fixed;
+        bottom: 5px;
+        right: 25px;
     > .fa-whatsapp{
         color: white;
         font-size: 30px;
@@ -41,5 +48,6 @@ footer{
     > .fa-message{
         color: #262626;
         font-size: 50px;}
+    }
     }
 

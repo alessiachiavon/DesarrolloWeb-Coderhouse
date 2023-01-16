@@ -290,32 +290,34 @@ footer > .redesSociales {
   font-size: 20px;
   align-self: center;
 }
-footer > .redesSociales > .redesSociales1 {
+footer > .redesSociales > .redesSociales1 > a {
+  text-decoration: none;
   color: #6d6f79;
 }
-footer > .redesSociales > .redesSociales1:hover {
+footer > .redesSociales > .redesSociales1 > a:hover {
   color: white;
 }
-footer > .redesSociales > .redesSociales2 {
+footer > .redesSociales > .redesSociales2 > a {
+  text-decoration: none;
   color: #6d6f79;
   padding-left: 20px;
 }
-footer > .redesSociales > .redesSociales2:hover {
+footer > .redesSociales > .redesSociales2 > a:hover {
   color: white;
 }
 
-.wspFijo {
+.wspFijo > a {
   position: fixed;
   bottom: 5px;
   right: 25px;
 }
-.wspFijo > .fa-whatsapp {
+.wspFijo > a > .fa-whatsapp {
   color: white;
   font-size: 30px;
   position: absolute;
   margin: 6px 12px;
 }
-.wspFijo > .fa-message {
+.wspFijo > a > .fa-message {
   color: #262626;
   font-size: 50px;
 }
