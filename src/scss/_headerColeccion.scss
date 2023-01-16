@@ -6,6 +6,9 @@
     margin-top: 120px;
     width: 90%;
     margin-left: 5%;
+    @media(max-width:1250px){
+        margin-top: 90px;
+    }
     > .tarjetaProducto{
         width: 450px; padding: 20px;
         > .tarjetaProducto__img{

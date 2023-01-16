@@ -467,6 +467,11 @@ footer > .redesSociales > .redesSociales2 > a:hover {
   width: 90%;
   margin-left: 5%;
 }
+@media (max-width: 1250px) {
+  .productos {
+    margin-top: 90px;
+  }
+}
 .productos > .tarjetaProducto {
   width: 450px;
   padding: 20px;
