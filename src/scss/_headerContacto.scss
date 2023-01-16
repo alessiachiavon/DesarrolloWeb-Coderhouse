@@ -6,7 +6,7 @@
     width: 80%;
     margin-left: 10%;
     margin-top: 120px;
-    @media(max-width:720px){
+    @media(max-width:1250px){
         width: 90%;
         margin-left: 5%;
         margin-top: 90px;
@@ -19,7 +19,7 @@
         height: auto;
         > img {
             width: 60%;
-            height: auto;}
+            height: 100%;}
         > .datosShowroom {
             display: flex;
             flex-direction: column;
@@ -39,49 +39,48 @@
         
     }
     
-    
-    > h3 {
-        padding-top: 40px;
-    }
-    > .formulario {
-        display: flex;
-        flex-direction: column;
-        width: 100%;
-        > .formPartes{
-            width: 100%;
-            padding-top: 15px;
-        > input {
-            font-family: 'Raleway', sans-serif;
-            font-size: 12px;
-            height: 40px;
-            padding-left: 10px;
-            width: 100%;
-            }
-        > textarea {
-            font-family: 'Raleway', sans-serif;
-            font-size: 12px;
-            height: 300px;
-            padding: 10px;
-            width: 100%;
-            }
-        }
-        > .notificaciones {
+        > .formContacto {
+            margin-top: 40px;
+            width: 60%;
+        > .formulario {
             display: flex;
-            font-family: 'Raleway', sans-serif;
-            font-size: 12px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-            > label {
-                padding-left: 10px;
+            flex-direction: column;
+            width: 100%;
+            > .formPartes{
+                width: 100%;
+                padding-top: 15px;
+                > input {
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 12px;
+                    height: 40px;
+                    padding-left: 10px;
+                    width: 100%;
+                    }
+                > textarea {
+                    font-family: 'Raleway', sans-serif;
+                    font-size: 12px;
+                    height: 300px;
+                    padding: 10px;
+                    width: 100%;
+                    }
+                }
+            > .notificaciones {
+                display: flex;
+                font-family: 'Raleway', sans-serif;
+                font-size: 12px;
+                padding-top: 10px;
+                padding-bottom: 10px;
+                > label {
+                    padding-left: 10px;
+                    }
+                }
+            > .boton {
+                width: 70px;
+                height: 40px;
+                border-style: none;
+                background-color: #262626;
+                color: white;
+                }
             }
         }
-        > .boton {
-            width: 70px;
-            height: 40px;
-            border-style: none;
-            background-color: #262626;
-            color: white;
-
-        }
-    }
 }

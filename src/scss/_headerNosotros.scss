@@ -9,7 +9,7 @@
     flex-wrap: nowrap ;
     grid-row-gap: 25px;
     margin-bottom: 25px;
-    @media(max-width:720px){
+    @media(max-width:1250px){
         margin-top: 90px;
         display: grid;
         grid-template-columns: 5% 90% 5%;
@@ -30,7 +30,7 @@
         text-align: end;
         font-weight: initial;
         padding-right: 25px;
-        @media(max-width:720px){
+        @media(max-width:1250px){
             padding-right: 0px;
         }
         }
@@ -79,7 +79,7 @@
         justify-items: left;
         padding-left: 25px;
         > img{ width: 100%;}
-        @media(max-width:720px){
+        @media(max-width:1250px){
             padding-left: 0px; 
             justify-items: center;
         }
@@ -90,7 +90,7 @@
         color: black;
         padding-left: 25px;
         text-align: end;
-        @media(max-width:720px){
+        @media(max-width:1250px){
             padding-left: 0px; 
             text-align: center;
         }
