@@ -3,11 +3,23 @@
     font-family: 'Raleway', sans-serif;
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     width: 80%;
     margin-left: 10%;
+    text-align: center;
+    margin-bottom: 40px;
+    @media(max-width:720px){
+        margin-top: 90px;
+    }
     > .intro {
-        padding-top: 20px;
+        width: 62%;
+        font-size: 20px;   
+        @media(max-width:720px){
+            width: 100%;
+        }
+        > p {
+            padding-top: 25px;
+        }
     }
     > .imagenes {
         width: 100%;
@@ -28,146 +40,173 @@
             }   
         }
     }
-    > .subtitulo1 {
-        font-size: 20px;
-        padding-top: 30px;
+
+   > .titulo2 {
+    width: 100%;
+    border-top: solid 2px #D8DCF2;
+    padding-top: 40px;
+    font-size: 20px;
+    > h4 {
+        font-weight: initial;
     }
-    > .cuero {
+   }
+    
         > .lavado {
             display: flex;
             flex-direction: row;
+            width: 100%;
+            height: auto;
+            justify-content: center;
             align-items: center;
-            padding-top: 10px;
-            >.icono {
-                @include icono (black)
+            padding-top: 80px;
+            position: relative;
+            @media(max-width:720px){
+                flex-direction: column;
+            } 
+            > .icono {
+                width: 50%;
+                display: flex;
+                justify-content: end;
+                padding-right: 30px;
+                @media(max-width:720px){
+                    padding-right: 0;
+                    justify-content: center;
+                }
+                > img {width: 100px;} 
+            }
+            >.linea {
+                background-color: black;
+                width: 10px;
+                height: 100%;
+                position: absolute;
+                @media(max-width:720px){
+                    display: none;
+                } 
             }
             > .informacion {
-                display: block;
-                padding-left: 25px;
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+                width: 50%;
+                padding-left: 30px;
+                @media(max-width:720px){
+                    width: 100%;
+                    text-align: center;
+                    padding-left: 0;
+                    padding-top: 20px;
+                } 
+                > h6 {
+                    font-size: 20px;
+                }
+                > p {
+                    padding-top: 20px;
+                }
             }
         }
         > .guardado {
             display: flex;
             flex-direction: row;
+            width: 100%;
+            height: auto;
+            justify-content: center;
             align-items: center;
-            padding-top: 10px;
-            >.icono {
-                @include icono (#262626)
-            }
+            padding-top: 40px;
+            position: relative;
+            @media(max-width:720px){
+                flex-direction: column;
+            } 
             > .informacion {
-                display: block;
-                padding-left: 25px;
+                display: flex;
+                flex-direction: column;
+                text-align: right;
+                width: 50%;
+                padding-right: 30px;
+                @media(max-width:720px){
+                    width: 100%;
+                    text-align: center;
+                    padding-right: 0;
+                    padding-top: 20px;
+                    order: 2;
+                }
+                > h6 {
+                    font-size: 20px;
+                }
+                > p {
+                    padding-top: 20px;
+                }
+            }
+            >.linea {
+                background-color: #262626;
+                width: 10px;
+                height: 100%;
+                position: absolute;
+                @media(max-width:720px){
+                    display: none;
+                }
+            }
+            >.icono {
+                width: 50%;
+                display: flex;
+                justify-content: start;
+                padding-left: 30px;
+                @media(max-width:720px){
+                    padding-left: 0;
+                    justify-content: center;
+                    order: 1;
+                }
+                > img {width: 100px;};
             }
         }
         > .cuidados {
             display: flex;
             flex-direction: row;
+            width: 100%;
+            height: auto;
+            justify-content: center;
             align-items: center;
-            padding-top: 10px;
-            >.icono {
-                font-size: 40px;
-                color: #D9A679;
+            padding-top: 40px;
+            position: relative;
+            @media(max-width:720px){
+                flex-direction: column;
+            } 
+            > .icono {
+                width: 50%;
+                display: flex;
+                justify-content: end;
+                padding-right: 30px;
+                @media(max-width:720px){
+                    padding-right: 0;
+                    justify-content: center;
+                }
+                > img {width: 100px;} 
+            }
+            >.linea {
+                background-color: #D9A679;
+                width: 10px;
+                height: 100%;
+                position: absolute;
+                @media(max-width:720px){
+                    display: none;
+                }
             }
             > .informacion {
-                display: block;
-                padding-left: 25px;
+                display: flex;
+                flex-direction: column;
+                text-align: left;
+                width: 50%;
+                padding-left: 30px;
+                @media(max-width:720px){
+                    width: 100%;
+                    text-align: center;
+                    padding-left: 0;
+                    padding-top: 20px;
+                }
+                > h6 {
+                    font-size: 20px;
+                }
+                > p {
+                    padding-top: 20px;
+                }
             }
         }
     }
-    > .subtitulo2 {
-        font-size: 20px;
-        padding-top: 30px;
-    }
-    > .charol {
-        > .lavado {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            >.icono {
-                @include icono (black)
-            }
-            > .informacion {
-                display: block;
-                padding-left: 25px;
-            }
-        }
-        > .cuidados {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            padding-top: 10px;
-            >.icono {
-                font-size: 40px;
-                color: #D9A679;
-            }
-            > .informacion {
-                display: block;
-                padding-left: 25px;
-            }
-        }
-    }
-    > .subtitulo3 {
-        font-size: 20px;
-        padding-top: 30px;
-    }
-    > .metalizados {
-        > .cuidados {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            >.icono {
-                font-size: 40px;
-                color: #D9A679;
-            }
-            > .informacion {
-                display: block;
-                padding-left: 25px;
-            }
-        }
-    }
-    > .subtitulo4 {
-        font-size: 20px;
-        padding-top: 30px;
-    }
-    > .sinteticos {
-        > .lavado {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            >.icono {
-                @include icono (black)
-            }
-            > .informacion {
-                display: block;
-                padding-left: 25px;
-            }
-        }
-        > .guardado {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            padding-top: 10px;
-            >.icono {
-                @include icono (#262626)  
-            }
-            > .informacion {
-                display: block;
-                padding-left: 25px;
-            }
-        }
-        > .cuidados {
-            display: flex;
-            flex-direction: row;
-            align-items: center;
-            padding-top: 10px;
-            >.icono {
-                font-size: 40px;
-                color: #D9A679;
-            }
-            > .informacion {
-                display: block;
-                padding-left: 25px;
-            }
-        }
-    }
-}

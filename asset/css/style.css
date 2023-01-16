@@ -51,14 +51,17 @@ header > .logoPadre {
     width: 55%;
   }
 }
+header > .logoPadre > a {
+  display: flex;
+  justify-content: end;
+}
 @media (max-width: 720px) {
   header > .logoPadre > a {
     height: 30px;
   }
 }
 header > .logoPadre > a > img {
-  width: 90%;
-  align-self: center;
+  width: 80%;
 }
 @media (max-width: 720px) {
   header > .logoPadre > a > img {
@@ -622,12 +625,28 @@ footer > .redesSociales > .redesSociales2:hover {
   font-family: "Raleway", sans-serif;
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   width: 80%;
   margin-left: 10%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+@media (max-width: 720px) {
+  .cuidadoMain {
+    margin-top: 90px;
+  }
 }
 .cuidadoMain > .intro {
-  padding-top: 20px;
+  width: 62%;
+  font-size: 20px;
+}
+@media (max-width: 720px) {
+  .cuidadoMain > .intro {
+    width: 100%;
+  }
+}
+.cuidadoMain > .intro > p {
+  padding-top: 25px;
 }
 .cuidadoMain > .imagenes {
   width: 100%;
@@ -652,169 +671,202 @@ footer > .redesSociales > .redesSociales2:hover {
     padding: 10px;
   }
 }
-.cuidadoMain > .subtitulo1 {
+.cuidadoMain > .titulo2 {
+  width: 100%;
+  border-top: solid 2px #D8DCF2;
+  padding-top: 40px;
   font-size: 20px;
-  padding-top: 30px;
 }
-.cuidadoMain > .cuero > .lavado {
+.cuidadoMain > .titulo2 > h4 {
+  font-weight: initial;
+}
+.cuidadoMain > .lavado {
   display: flex;
   flex-direction: row;
+  width: 100%;
+  height: auto;
+  justify-content: center;
   align-items: center;
-  padding-top: 10px;
+  padding-top: 80px;
+  position: relative;
 }
-.cuidadoMain > .cuero > .lavado > .icono {
+@media (max-width: 720px) {
+  .cuidadoMain > .lavado {
+    flex-direction: column;
+  }
+}
+.cuidadoMain > .lavado > .icono {
+  width: 50%;
+  display: flex;
+  justify-content: end;
+  padding-right: 30px;
+}
+@media (max-width: 720px) {
+  .cuidadoMain > .lavado > .icono {
+    padding-right: 0;
+    justify-content: center;
+  }
+}
+.cuidadoMain > .lavado > .icono > img {
+  width: 100px;
+}
+.cuidadoMain > .lavado > .linea {
   background-color: black;
-  border-radius: 20px;
-  width: 40px;
-  height: 40px;
-  padding: 10px;
+  width: 10px;
+  height: 100%;
+  position: absolute;
+}
+@media (max-width: 720px) {
+  .cuidadoMain > .lavado > .linea {
+    display: none;
+  }
+}
+.cuidadoMain > .lavado > .informacion {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  width: 50%;
+  padding-left: 30px;
+}
+@media (max-width: 720px) {
+  .cuidadoMain > .lavado > .informacion {
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+    padding-top: 20px;
+  }
+}
+.cuidadoMain > .lavado > .informacion > h6 {
   font-size: 20px;
-  color: white;
 }
-.cuidadoMain > .cuero > .lavado > .informacion {
-  display: block;
-  padding-left: 25px;
+.cuidadoMain > .lavado > .informacion > p {
+  padding-top: 20px;
 }
-.cuidadoMain > .cuero > .guardado {
+.cuidadoMain > .guardado {
   display: flex;
   flex-direction: row;
+  width: 100%;
+  height: auto;
+  justify-content: center;
   align-items: center;
-  padding-top: 10px;
+  padding-top: 40px;
+  position: relative;
 }
-.cuidadoMain > .cuero > .guardado > .icono {
+@media (max-width: 720px) {
+  .cuidadoMain > .guardado {
+    flex-direction: column;
+  }
+}
+.cuidadoMain > .guardado > .informacion {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  width: 50%;
+  padding-right: 30px;
+}
+@media (max-width: 720px) {
+  .cuidadoMain > .guardado > .informacion {
+    width: 100%;
+    text-align: center;
+    padding-right: 0;
+    padding-top: 20px;
+    order: 2;
+  }
+}
+.cuidadoMain > .guardado > .informacion > h6 {
+  font-size: 20px;
+}
+.cuidadoMain > .guardado > .informacion > p {
+  padding-top: 20px;
+}
+.cuidadoMain > .guardado > .linea {
   background-color: #262626;
-  border-radius: 20px;
-  width: 40px;
-  height: 40px;
-  padding: 10px;
-  font-size: 20px;
-  color: white;
+  width: 10px;
+  height: 100%;
+  position: absolute;
 }
-.cuidadoMain > .cuero > .guardado > .informacion {
-  display: block;
-  padding-left: 25px;
+@media (max-width: 720px) {
+  .cuidadoMain > .guardado > .linea {
+    display: none;
+  }
 }
-.cuidadoMain > .cuero > .cuidados {
+.cuidadoMain > .guardado > .icono {
+  width: 50%;
+  display: flex;
+  justify-content: start;
+  padding-left: 30px;
+}
+@media (max-width: 720px) {
+  .cuidadoMain > .guardado > .icono {
+    padding-left: 0;
+    justify-content: center;
+    order: 1;
+  }
+}
+.cuidadoMain > .guardado > .icono > img {
+  width: 100px;
+}
+.cuidadoMain > .cuidados {
   display: flex;
   flex-direction: row;
+  width: 100%;
+  height: auto;
+  justify-content: center;
   align-items: center;
-  padding-top: 10px;
+  padding-top: 40px;
+  position: relative;
 }
-.cuidadoMain > .cuero > .cuidados > .icono {
-  font-size: 40px;
-  color: #D9A679;
+@media (max-width: 720px) {
+  .cuidadoMain > .cuidados {
+    flex-direction: column;
+  }
 }
-.cuidadoMain > .cuero > .cuidados > .informacion {
-  display: block;
-  padding-left: 25px;
-}
-.cuidadoMain > .subtitulo2 {
-  font-size: 20px;
-  padding-top: 30px;
-}
-.cuidadoMain > .charol > .lavado {
+.cuidadoMain > .cuidados > .icono {
+  width: 50%;
   display: flex;
-  flex-direction: row;
-  align-items: center;
+  justify-content: end;
+  padding-right: 30px;
 }
-.cuidadoMain > .charol > .lavado > .icono {
-  background-color: black;
-  border-radius: 20px;
-  width: 40px;
-  height: 40px;
-  padding: 10px;
-  font-size: 20px;
-  color: white;
+@media (max-width: 720px) {
+  .cuidadoMain > .cuidados > .icono {
+    padding-right: 0;
+    justify-content: center;
+  }
 }
-.cuidadoMain > .charol > .lavado > .informacion {
-  display: block;
-  padding-left: 25px;
+.cuidadoMain > .cuidados > .icono > img {
+  width: 100px;
 }
-.cuidadoMain > .charol > .cuidados {
+.cuidadoMain > .cuidados > .linea {
+  background-color: #D9A679;
+  width: 10px;
+  height: 100%;
+  position: absolute;
+}
+@media (max-width: 720px) {
+  .cuidadoMain > .cuidados > .linea {
+    display: none;
+  }
+}
+.cuidadoMain > .cuidados > .informacion {
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-top: 10px;
+  flex-direction: column;
+  text-align: left;
+  width: 50%;
+  padding-left: 30px;
 }
-.cuidadoMain > .charol > .cuidados > .icono {
-  font-size: 40px;
-  color: #D9A679;
+@media (max-width: 720px) {
+  .cuidadoMain > .cuidados > .informacion {
+    width: 100%;
+    text-align: center;
+    padding-left: 0;
+    padding-top: 20px;
+  }
 }
-.cuidadoMain > .charol > .cuidados > .informacion {
-  display: block;
-  padding-left: 25px;
-}
-.cuidadoMain > .subtitulo3 {
+.cuidadoMain > .cuidados > .informacion > h6 {
   font-size: 20px;
-  padding-top: 30px;
 }
-.cuidadoMain > .metalizados > .cuidados {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.cuidadoMain > .metalizados > .cuidados > .icono {
-  font-size: 40px;
-  color: #D9A679;
-}
-.cuidadoMain > .metalizados > .cuidados > .informacion {
-  display: block;
-  padding-left: 25px;
-}
-.cuidadoMain > .subtitulo4 {
-  font-size: 20px;
-  padding-top: 30px;
-}
-.cuidadoMain > .sinteticos > .lavado {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-}
-.cuidadoMain > .sinteticos > .lavado > .icono {
-  background-color: black;
-  border-radius: 20px;
-  width: 40px;
-  height: 40px;
-  padding: 10px;
-  font-size: 20px;
-  color: white;
-}
-.cuidadoMain > .sinteticos > .lavado > .informacion {
-  display: block;
-  padding-left: 25px;
-}
-.cuidadoMain > .sinteticos > .guardado {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-top: 10px;
-}
-.cuidadoMain > .sinteticos > .guardado > .icono {
-  background-color: #262626;
-  border-radius: 20px;
-  width: 40px;
-  height: 40px;
-  padding: 10px;
-  font-size: 20px;
-  color: white;
-}
-.cuidadoMain > .sinteticos > .guardado > .informacion {
-  display: block;
-  padding-left: 25px;
-}
-.cuidadoMain > .sinteticos > .cuidados {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding-top: 10px;
-}
-.cuidadoMain > .sinteticos > .cuidados > .icono {
-  font-size: 40px;
-  color: #D9A679;
-}
-.cuidadoMain > .sinteticos > .cuidados > .informacion {
-  display: block;
-  padding-left: 25px;
+.cuidadoMain > .cuidados > .informacion > p {
+  padding-top: 20px;
 }
 
 .contactoMain {
