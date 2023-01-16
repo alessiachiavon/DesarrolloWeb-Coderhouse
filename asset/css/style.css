@@ -616,13 +616,7 @@ footer > .redesSociales > .redesSociales2 > a:hover {
 }
 .nosotrosMain > .textoppal > p {
   padding-top: 20px;
-  text-indent: 30px;
   line-height: 25px;
-}
-@media (max-width: 1250px) {
-  .nosotrosMain > .textoppal > p {
-    text-indent: none;
-  }
 }
 .nosotrosMain > .textoppal > img {
   padding-top: 45px;

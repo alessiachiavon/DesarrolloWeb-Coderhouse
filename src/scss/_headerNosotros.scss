@@ -99,9 +99,7 @@
             padding-bottom: 25px;
         }
         > p { padding-top: 20px;
-            text-indent: 30px;
             line-height: 25px;
-            @media(max-width:1250px){text-indent: none;}
         }  
         > img { padding-top: 45px;
             width: 100%;
