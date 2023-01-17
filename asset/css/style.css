@@ -989,4 +989,32 @@ footer > .redesSociales > .redesSociales2 > a:hover {
   border-style: none;
   background-color: #262626;
   color: white;
+}
+
+.bodyGracias {
+  font-family: "Raleway", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 120px;
+}
+@media (max-width: 768px) {
+  .bodyGracias {
+    margin-top: 90px;
+  }
+}
+.bodyGracias h1 {
+  display: block;
+  text-align: center;
+}
+.bodyGracias a {
+  width: 20%;
+  height: 20%;
+  margin-top: 20vh;
+}
+@media (max-width: 768px) {
+  .bodyGracias a {
+    width: 60%;
+    height: 60%;
+  }
 }/*# sourceMappingURL=style.css.map */
