@@ -124,13 +124,16 @@ header > .navegador > ul {
     font-weight: bold;
     font-size: 12px;
     margin-top: 45px;
+    margin-bottom: 0;
     padding-top: 10px;
     padding-left: 5px;
+    padding-bottom: 0;
     width: 550px;
     height: 100%;
     flex-direction: column;
     justify-content: start;
     align-self: start;
+    line-height: 20px;
     transition: 0.2s;
   }
   header > .navegador > ul:hover {
@@ -144,7 +147,7 @@ header > .navegador > ul {
 }
 @media (max-width: 1250px) {
   header > .navegador > ul > :nth-child(3) {
-    padding-top: 270px;
+    padding-top: 250px;
   }
 }
 header > .navegador > ul > li {
@@ -153,6 +156,7 @@ header > .navegador > ul > li {
 @media (max-width: 1250px) {
   header > .navegador > ul > li {
     padding: 5px;
+    margin: 0;
   }
 }
 header > .navegador > ul > li > a {
@@ -183,7 +187,9 @@ header > .navegador > ul > li > ul:hover {
 }
 @media (max-width: 1250px) {
   header > .navegador > ul > li > ul {
+    margin: 0;
     padding-top: 10px;
+    padding-bottom: 0;
     text-align: left;
   }
 }
@@ -197,6 +203,8 @@ header > .navegador > ul > li > ul > li > a {
 @media (max-width: 1250px) {
   header > .navegador > ul > li > ul > li > a {
     font-weight: normal;
+    margin: 0;
+    padding: 10px 20px;
   }
 }
 header form {

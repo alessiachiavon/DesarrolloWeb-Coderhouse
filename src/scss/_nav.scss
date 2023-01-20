@@ -86,13 +86,16 @@ header{
                 font-weight: bold;
                 font-size: 12px;
                 margin-top: 45px;
+                margin-bottom: 0;
                 padding-top: 10px;
                 padding-left: 5px;
+                padding-bottom: 0;
                 width: 550px;
                 height: 100%;
                 flex-direction: column;
                 justify-content: start;
                 align-self: start;
+                line-height: 20px;
                 transition: 0.2s;
                 &:hover{left: 0;}
                 &:hover > li > ul {
@@ -103,13 +106,14 @@ header{
                 }
             > :nth-child(3){
                 @media(max-width:1250px){
-                        padding-top: 270px; 
+                        padding-top: 250px; 
                     } 
                 }
             > li{
                 position: relative;
                 @media(max-width:1250px){
                     padding: 5px;
+                    margin: 0;
                     }
                 > a{
                     text-decoration: none;
@@ -135,7 +139,9 @@ header{
                         position: absolute; 
                     }
                     @media(max-width:1250px){
+                        margin: 0;
                         padding-top: 10px;
+                        padding-bottom: 0;
                         text-align: left;
                         }
                         > li {
@@ -147,6 +153,8 @@ header{
                         color: white;
                         @media(max-width:1250px){
                             font-weight: normal;
+                            margin: 0;
+                            padding: 10px 20px;
                             }
                         }
                     }
