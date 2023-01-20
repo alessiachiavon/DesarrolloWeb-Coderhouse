@@ -548,6 +548,7 @@ footer > .redesSociales > .redesSociales2 > a:hover {
 @media (max-width: 1250px) {
   .nosotrosMain > .fraseo {
     padding-right: 0px;
+    font-size: 20px;
   }
 }
 .nosotrosMain > .columna1 {
@@ -618,6 +619,11 @@ footer > .redesSociales > .redesSociales2 > a:hover {
 .nosotrosMain > .textoppal > .autocita {
   font-size: 25px;
   padding-bottom: 25px;
+}
+@media (max-width: 1250px) {
+  .nosotrosMain > .textoppal > .autocita {
+    font-size: 20px;
+  }
 }
 .nosotrosMain > .textoppal > p {
   padding-top: 20px;
