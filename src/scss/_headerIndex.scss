@@ -117,8 +117,8 @@
     width: 85%;}
 
 .envio{
-    grid-area: envio;
-    width: 85%;}
+    @extend .descuento;
+    grid-area: envio;}
 
 .outlet{
     grid-area: outlet;

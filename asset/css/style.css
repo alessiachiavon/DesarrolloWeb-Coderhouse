@@ -144,7 +144,7 @@ header > .navegador > ul {
 }
 @media (max-width: 1250px) {
   header > .navegador > ul > :nth-child(3) {
-    padding-top: 250px;
+    padding-top: 270px;
   }
 }
 header > .navegador > ul > li {
@@ -434,13 +434,12 @@ footer > .redesSociales > .redesSociales2 > a:hover {
 .contenidoIndex .newin:hover {
   transform: scale(1.05);
 }
-.contenidoIndex .descuento {
+.contenidoIndex .descuento, .contenidoIndex .envio {
   grid-area: descuento;
   width: 85%;
 }
 .contenidoIndex .envio {
   grid-area: envio;
-  width: 85%;
 }
 .contenidoIndex .outlet {
   grid-area: outlet;
