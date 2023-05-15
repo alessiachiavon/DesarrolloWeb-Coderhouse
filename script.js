@@ -10,7 +10,7 @@ let contador = carrito.length
             productoActualizado.innerHTML = `${contador}`
             carrito2.appendChild(productoActualizado)
 
-fetch('./data.json')
+fetch('../data.json')
     .then((resp) => resp.json())
     .then((dato) => {
         dato.forEach((info) => {
