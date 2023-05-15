@@ -1,4 +1,4 @@
-[ 
+[
 {"id":1, "imagen": "/asset/img/bandolera1.jpg", "tipo": "Bandolera", "material": "Poliéster reciclado", "color": "Negro", "descripcion": "Bandolera de material reciclado con bolsillo en el frente. Cierre, asa larga regulable y forro interior.", "precio": 13500},
 {"id":2, "imagen": "/asset/img/mochila1.jpg", "tipo": "Mochila", "material": "Poliéster reciclado", "color": "Negro", "descripcion": "Mochila porta notebook de viaje con bolsillo frontal. Asa corta, doble asa larga regulable, cierre y forro interior.", "precio": 15900},
 {"id":3, "imagen": "/asset/img/mochila2.jpg", "tipo": "Mochila", "material": "Poliéster reciclado", "color": "Negro", "descripcion": "Mochila de viaje de material reciclado con doble bolsillo en el frente. Doble asa regulable. Aplique decorativo, cierre y forro interior.", "precio": 17500},
