@@ -976,6 +976,18 @@ footer > .redesSociales > .redesSociales2 > a:hover {
   margin-left: 10%;
 }
 
+.coleccion input{
+  font-family: "Raleway", sans-serif;
+  font-size: 15px;
+  margin-top: 25px;
+  height: 30px;
+  width: 80%;
+  margin-left: 10%;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+}
+
 .coleccion > ul {
   font-family: "Raleway", sans-serif;
   list-style-type: none;
@@ -1052,24 +1064,24 @@ footer > .redesSociales > .redesSociales2 > a:hover {
     width: 100%;
   }
 }
-.loginMain > .formLogin > .formulario {
+.loginMain > .formLogin > form {
   display: flex;
   flex-direction: column;
   width: 100%;
   margin-top: 80px;
 }
-.loginMain > .formLogin > .formulario > .formPartes {
+.loginMain > .formLogin > form > .formPartes {
   width: 100%;
   padding-top: 15px;
 }
-.loginMain > .formLogin > .formulario > .formPartes > input {
+.loginMain > .formLogin > form > .formPartes > input {
   font-family: "Raleway", sans-serif;
   font-size: 12px;
   height: 40px;
   padding-left: 10px;
   width: 100%;
 }
-.loginMain > .formLogin > .formulario > .boton {
+.loginMain > .formLogin > form > .boton {
   width: 70px;
   height: 40px;
   margin-top: 20px;
@@ -1077,7 +1089,7 @@ footer > .redesSociales > .redesSociales2 > a:hover {
   background-color: #262626;
   color: white;
 }
-.loginMain > .formLogin > .formulario > .boton {
+.loginMain > .formLogin > form > .boton {
   width: 70px;
   height: 40px;
   margin-top: 20px;
@@ -1085,7 +1097,62 @@ footer > .redesSociales > .redesSociales2 > a:hover {
   background-color: #262626;
   color: white;
 }
-.mainCarrito > .listaOculta{
-  display: none;
+.mainCarrito {
+  margin-top: 250px;
+  font-family: "Raleway", sans-serif;
+  width: 80%;
+  margin-left: 10%;
+  text-align: left;
+  margin-bottom: 200px;
+}
+.mainCarrito .tituloCarrito {
+  text-align: center;
+  margin-bottom: 100px;
+}
+.mainCarrito .rayita {
+background-color: #262626;
+width: 100%;
+height: 2px;
+margin-top: 100px;
+}
+.mainCarrito ul {
+  list-style-type: none;
+  margin-left: 100px;
+}
+.mainCarrito ul li {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.mainCarrito ul li p {
+  width: 60%;
+}
+.mainCarrito ul li h4 {
+  width: 80%;
+  text-align: right;
+}
+.mainCarrito ul li button {
+  width: 70px;
+  height: 35px;
+  margin-top: 0px;
+  border-style: none;
+  background-color: #262626;
+  color: white;
+}
+.mainCarrito h4 {
+  margin-top: 10px;
+}
+.mainCarrito #total {
+  list-style-type: none;
+  width: 100%;
+  text-align: right;
+  font-weight: bold;
+}
+.mainCarrito #total button{
+  width: 15%;
+  height: 35px;
+  margin-left: 2%;
+  border-style: none;
+  background-color: #262626;
+  color: white;
 }
 /*# sourceMappingURL=style.css.map */
