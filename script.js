@@ -10,7 +10,7 @@ let contador = carrito.length
             productoActualizado.innerHTML = `${contador}`
             carrito2.appendChild(productoActualizado)
 
-fetch('/data.json')
+fetch('../data.json')
     .then((resp) => resp.json())
     .then((dato) => {
         dato.forEach((info) => {
@@ -81,7 +81,7 @@ fetch('/data.json')
     let filtro = e.target.value.toLowerCase();
     
     if(filtro == ""){
-        fetch('/data.json')
+        fetch('../data.json')
     .then((resp) => resp.json())
     .then((dato) => {
         dato.forEach((info) => {
@@ -142,7 +142,7 @@ fetch('/data.json')
     })
     }
     else{
-    fetch('/data.json')
+    fetch('../data.json')
     .then((resp) => resp.json())
     .then((dato) => {
 
